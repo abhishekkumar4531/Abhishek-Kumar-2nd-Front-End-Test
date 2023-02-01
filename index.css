@@ -1,0 +1,143 @@
+@font-face{
+    font-family: "navbar-tag";
+    src: url(roobert/HCLTechRoobert-SemiBold.woff);
+}
+@font-face {
+    font-family: "h1-span";
+    src: url(roobert/HCLTechRoobert-Light.woff);
+}
+@font-face {
+    font-family: "h1-font";
+    src: url(roobert/HCLTechRoobert-Bold.woff);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 1180px;
+    margin: 0px auto;
+}
+.navbar-con{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.navbar-link ul{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-logo{
+    padding: 20px 0px;
+}
+.navbar-link a{
+    padding: 30px 16px;
+    font-family: "navbar-tag";
+    color: rgb(77, 75, 75);
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar-btn{
+    padding: 20px 0px;
+}
+.navbar-btn button{
+    color: rgb(241, 240, 240);
+    background-color: black;
+    padding: 10px;
+    font-size: 16px;
+    font-family: "navbar-tag";
+    border: none;
+    cursor: pointer;
+}
+.banner-ctn{
+    background-image: url(imgs/banner\ 3.png);
+    background-size: cover;
+}
+.shadow{
+    background-color: rgba(40, 24, 59, 0.2);
+}
+.banner-con{
+    height: 80vh;
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    width: 600px;
+}
+.banner-text h1{
+    font-family: "h1-font";
+    word-spacing: 5px;
+    font-size: 45px;
+}
+.banner-text h1 span{
+    font-family: "h1-span";
+    font-weight: lighter;
+}
+.sec-con{
+    padding: 100px 0px;
+}
+.sec-con-part{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-con-left{
+    width: 50%;
+}
+.sec-con-left h2{
+    font-family: "h1-font";
+    width: 60%;
+    font-size: 30px;
+}
+.sec-left-img{
+    padding-top: 35px;
+}
+.sec-con-right{
+    width: 50%;
+}
+.sec-right-row{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-right-col1{
+    width: 50%;
+}
+.sec-right-col1-con{
+    padding: 15px;
+    height: 90px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid rgb(209, 207, 207);
+    box-shadow: 0px 1px rgb(233, 228, 228);
+    border-radius: 3px;
+}
+.sec-right-col1-con h2{
+    font-family: "h1-font";
+    font-weight: bold;
+    color: rgb(100, 33, 177);
+    text-shadow: 1px 0px rgb(100, 33, 177);
+}
+.sec-right-col1-con p{
+    font-family: "h1-span";
+    color: rgb(118, 113, 134);
+    padding: 5px;
+    padding-left: 0px;
+    font-weight: bold;
+}
+.sec-right-col1:first-child{
+    margin-right: 20px;
+}
+.sec-comment{
+    color: rgb(118, 113, 134);
+    font-family: "h1-span";
+    margin: 10px 0px;
+    font-weight: bold;
+}
